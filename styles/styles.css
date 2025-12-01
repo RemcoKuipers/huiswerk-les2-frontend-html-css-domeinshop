@@ -112,7 +112,7 @@ main {
     margin: 40px auto;
     font-size: 12px;
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 .italic {
@@ -130,11 +130,13 @@ main {
     display: inline-block;
     vertical-align: middle;
 }
+
 .quote-image {
     position: absolute;
     top: 30px;
     left: 50px;
 }
+
 /*///////////// 3.3 Support /////////////*/
 .support {
     text-align: left;
