@@ -127,6 +127,20 @@ main {
     margin:10px 0;
 }
 /*///////////// 3.4 Faq /////////////*/
-
-
+.faq h2{
+    margin: 40px auto;
+}
+details{
+    text-align: left;
+    }
+.faq p{
+    border: 0 solid #1C2B32;
+    border-radius: 25px ;
+    background-color: #899CA0;
+    padding: 25px;
+    color: white;
+}
+details:hover{
+    cursor: pointer;
+}
 /*///////////// 3.5 Footer /////////////*/
