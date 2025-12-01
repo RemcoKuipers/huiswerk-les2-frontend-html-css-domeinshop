@@ -23,10 +23,12 @@ Table of Contents:
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     color: #899CA0;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
 
@@ -98,49 +100,92 @@ main {
 
 .testimonials {
     margin: 40px auto;
+
 }
 
+.main-testimonials {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #D8DCE0;
+    padding: 30px 100px;
+    text-align: left;
+    margin: 40px auto;
+    font-size: 12px;
+    width: 100%;
+    position:relative;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 20px 20px 20px 0;
+}
+
+.main-testimonials figcaption, .avatar {
+    display: inline-block;
+    vertical-align: middle;
+}
+.quote-image {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
 /*///////////// 3.3 Support /////////////*/
-.support{
+.support {
     text-align: left;
 }
+
 .support img {
     width: 100%;
     border-radius: 10px;
     margin: 20px auto;
 }
 
-.support p{
+.support p {
     text-align: left;
 }
-.support h2{
+
+.support h2 {
     margin: 20px auto;
     text-align: center;
 }
-.support-button{
+
+.support-button {
     border: #1C2B32 1px solid;
-    border-radius: 25px ;
+    border-radius: 25px;
     padding: 15px 20px 15px 20px;
     background-color: #1C2B32;
     color: white;
     font-size: 12px;
-    margin:10px 0;
+    margin: 10px 0;
 }
+
 /*///////////// 3.4 Faq /////////////*/
-.faq h2{
+.faq h2 {
     margin: 40px auto;
 }
-details{
+
+details {
     text-align: left;
-    }
-.faq p{
+
+}
+
+.faq p {
     border: 0 solid #1C2B32;
-    border-radius: 25px ;
+    border-radius: 10px;
     background-color: #899CA0;
     padding: 25px;
     color: white;
+    margin: 10px 0;
 }
-details:hover{
+
+details:hover {
     cursor: pointer;
 }
+
 /*///////////// 3.5 Footer /////////////*/
