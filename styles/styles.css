@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -17,7 +18,7 @@ Table of Contents:
     1. Global Styles
 ////////////////////////*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +27,7 @@ Table of Contents:
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
 
@@ -36,21 +37,54 @@ body{
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("../assets/images/mountains.jpg") ;
+    background-size: cover;
+    background-position: center;
+
+}
+.header-container {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+
+}
+
+.header-container h1 {
+    font-size: 50px;
+}
+.header-container p {
+    font-size: 12px;
+
+}
 
 
+.header-left-button{
+    border: #1C2B32 1px solid;
+border-radius: 25px 0 0 25px;
+    margin: 20px 0 10px 0;
+    padding: 15px 70px 15px 20px;
+    background-color: transparent;
+
+}
+.header-right-button{
+    margin-left: -6px;
+    border: #1C2B32 1px solid;
+    border-radius: 0 25px 25px 0;
+    padding: 15px 20px 15px 20px;
+    background-color: #1C2B32;
+    color: white;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
-
 
 
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
